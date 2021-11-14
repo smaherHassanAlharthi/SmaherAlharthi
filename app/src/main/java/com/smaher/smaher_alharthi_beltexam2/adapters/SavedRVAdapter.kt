@@ -38,7 +38,7 @@ class SavedRVAdapter (private val fragment: DatabaseFragment, private var list: 
 
         holder.itemView.apply {
             tvName.text = data.name
-            tvName.text = data.country
+            tvCountry.text = data.country
 
         }
         holder.itemView.btUpdate.setOnClickListener {
